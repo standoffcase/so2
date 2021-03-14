@@ -1,0 +1,1351 @@
+<!DOCTYPE html><html lang="en"><head>
+        <title>StandoffCase - открывай лучшие кейсы Standoff 2</title>
+        <link type="image/x-icon" rel="shortcut icon" href="images/favicon.png">
+        <meta charset="utf-8">
+    
+        <meta property="vk:title" content="STANDOFFCASE - Кейсы Standoff 2 по лучшим ценам!">
+        <meta property="vk:description" content="STANDOFFCASE - самый прибыльный сайт для открытия кейсов Standoff 2! Вас ждет более 30 кейсов! Моментальный вывод в Стандофф! Открывай у нас :)">
+        <meta property="vk:text" content="STANDOFFCASE - самый прибыльный сайт для открытия кейсов Standoff 2! Вас ждет более 30 кейсов! Моментальный вывод в Стандофф! Открывай у нас :)">
+        <meta property="vk:url" content="https://standoffcase.com/">
+        <meta property="vk:image" content="https://standoffcase.com/assets/img/logo.png">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Заходи и открывай кейсы Standoff 2 со мной!">
+        <meta property="og:description" content="STANDOFFCASE - самый прибыльный сайт для открытия кейсов Standoff 2! Вас ждет более 30 кейсов! Моментальный вывод в Стандофф! Открывай у нас :)">
+        <meta property="og:site_name" content="standoffcase.com">
+        <meta property="og:url" content="https://standoffcase.com">
+        <meta property="og:image" content="images/logo.png">
+        <meta name="csrf-token" content="O2JeJX07jptelPLIMXWujcYwOwGII1V6kqFreyYD">
+
+        <meta name="keywords" content="открытие кейсов standoff 2, открытие кейсов стандофф 2, открытие кейсов, standoff 2, standoff, стандофф 2, стандофф, кейсы стандофф, кейсы standoff 2, кейсы standoff, открытие кейсов стандофф, открытие кейсов standoff, standoff case, standoffcase, стандофф кейсы, standoff кейсы, скины standoff 2, скины стандофф 2, нож standoff 2, нож стандофф 2, керамбит голд, karambit gold, голда стандофф, голда standoff">
+        <meta name="description" content="STANDOFFCASE - самый прибыльный сайт для открытия кейсов Standoff 2! Вас ждет более 30 кейсов! Моментальный вывод в Стандофф! Открывай у нас :)">
+
+		<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1">
+        <!--meta name="viewport" content="width=1920, maximum-scale=5.0, minimum-scale=0" -->
+        <link rel="stylesheet" href="css/popup.css" type="text/css">
+        <link href="css/mobile.min.css" rel="stylesheet" type="text/css">
+        <link href="css/main.min.css" rel="stylesheet" type="text/css">
+        <link href="css/mobile.css" rel="stylesheet" type="text/css">
+        <meta name="csrf-token" content="O2JeJX07jptelPLIMXWujcYwOwGII1V6kqFreyYD">
+        <meta name="google-site-verification" content="ZzXKD8D33Ijw4-XycvFAL4bTT97WdL_vf7CUOxvlNbA">
+    </head>
+<body>
+    <div id="app">
+        <div class="toWheel">
+            <span class="toWheel__cursor"></span>
+            <img src="images/mini-wheel2.png" class="toWheel__image">
+			<router-link class="ghost" to="/wheel"></router-link>
+        </div>
+		<div class="toWheel2">
+			<img src="images/bonuses_4.png" class="toWheel__image" style="animation: none;">
+			<router-link class="ghost" to="/bonuses"></router-link>
+		</div>
+        <header>
+            <div class="topbar">
+                <div class="logo logo--fit" style="display: flex;align-items: center;">
+                    <a href="index_1.html" style="cursor: pointer;"><img src="images/standoff_logo.png"></a>
+					<div class="standoffcard-logo">
+						<span class="standoffcard__h1">Standoff Market</span>
+						<span class="standoffcard__domain">.ru</span>
+						<a class="ghost" target="_blank" href="https://standoffmarket.ru"></a>
+					</div>
+                </div>
+				<span class="icon-menu" onclick="openMobileMenu()"></span>
+				<div class="mobile-bar">
+                    <div class="profile">
+													<div class="profile">
+								<a class="auth" onclick="error('auth');">Авторизироваться</a>
+							</div>
+						                    </div>
+                    <nav class="main">
+						<router-link exact to="/">Главная</router-link>
+						<router-link to="/contracts">Контракты</router-link>
+						<router-link to="/top">Топ</router-link>
+						<router-link to="/faq">FAQ</router-link>
+                    </nav>
+                    <div class="lang">
+                        <div onclick="switchLanguage(this)" class="current" lang="ru"><span class="icon-flag"><img src="images/ru.png"></span>Русский</div>
+                        <div class="list">
+                            <a onclick="setLanguage('ru')" language="ru"><span class="icon-flag"><img src="images/ru.png"></span>Русский</a>
+                            <a onclick="setLanguage('en')" language="en"><span class="icon-flag"><img src="images/en.png"></span>English</a>
+                        </div>
+                    </div>
+                    <div class="standoffcard-logo standoffcard-logo--mobile">
+                        <span class="standoffcard__h1">Standoff Market</span>
+                        <span class="standoffcard__domain">.ru</span>
+                        <a class="ghost" target="_blank" href="https://standoffmarket.ru"></a>
+                    </div>
+                </div>
+                <div class="lang">
+                    <div onclick="switchLanguage(this)" class="current" lang="ru"><span class="icon-flag"><img src="images/ru.png"></span>Русский</div>
+                    <div class="list">
+                        <a onclick="setLanguage('ru')" language="ru"><span class="icon-flag"><img src="images/ru.png"></span>Русский</a>
+                        <a onclick="setLanguage('en')" language="en"><span class="icon-flag"><img src="images/en.png"></span>English</a>
+                    </div>
+                </div>
+                <nav class="main">
+                    <router-link exact to="/">Главная</router-link>
+                    <router-link to="/contracts">Контракты</router-link>
+                    <router-link to="/top">Топ</router-link>
+                    <router-link to="/faq">FAQ</router-link>
+                </nav>
+                                    <div class="profile">
+                        <a class="auth" onclick="error('auth');">Авторизироваться</a>
+                    </div>
+                            </div>
+            <div class="underbar transparent">
+                <div class="underbar__bench">
+                    <span class="underbar__icon underbar__icon--gift"></span>
+                    <div class="underbar__article">
+                        <h4 class="underbar__title">Бесплатные скины</h4>
+                        <p class="underbar__text">
+						Открывай кейсы бесплатно <br> выполняя задания
+                        </p>
+                    </div>
+                    <router-link to="/bonus" class="ghost"></router-link>
+                </div>
+                <div class="underbar__bench">
+                    <span class="underbar__icon underbar__icon--refer"></span>
+                    <div class="underbar__article">
+                        <h4 class="underbar__title">Бесплатный баланс</h4>
+                        <p class="underbar__text">
+                         Приглашай друзей на сайт <br>  по реф.системе и получай баланс
+                        </p>
+                    </div>
+                    <router-link to="/ref" class="ghost"></router-link>
+                </div>
+                                                <div class="underbar__bench">
+                    <span class="underbar__icon underbar__icon--discount"></span>
+                    <div class="underbar__feature">
+                        <div class="underbar__title">
+                            <span>Весенние скидки</span> <span class="underbar__title underbar__noted"> -30% на всё!</span>
+                        </div>
+                        <div class="usual-timer" data-time="1407947">
+                            <span>Окончание через: </span>
+                            <div class="usual-timer__counter" days>16</div>
+                            <b>:</b>
+                            <div class="usual-timer__counter" hours>7</div>
+                            <b>:</b>
+                            <div class="usual-timer__counter" minutes>5</div>
+                            <b>:</b>
+                            <div class="usual-timer__counter" seconds>47</div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+            <div class="live_line">
+                <div class="desc">
+                    <span class="title"><span class="small-green-circle"></span>Live дропы</span>
+                    <div class="gray">
+                        <span class="numbers">0</span>
+                        кейсов <br> уже вскрыты
+                    </div>
+                </div>
+                <div class="weapons" id="live_lenta">
+                     
+                    <div onclick="window.location.href='/profile/2394401';" class="drop purple">
+                        <div class="drop-image">
+                            <img src="images/xQpsLoCdl4-m40wintertrack.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-21.userapi.com/s/v1/ig2/-_vliBRvVO42zfts1CVTwhpaZkGyTgGqt4D7Xyme4C6IP4a7oCxE1uERmTnJo3JJ_6XAlcT9nqp6exTMVUfw4Gku.jpg?size=200x0&amp;quality=96&amp;crop=342,0,1876,1876&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Povilas</span>
+                            </div> 
+                            <img src="images/contract.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2753683';" class="drop purple">
+                        <div class="drop-image">
+                            <img src="images/BexVEvaZ3I-fabMparrotEPIC.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://vk.com/images/camera_200.png" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Казимагомед</span>
+                            </div> 
+                            <img src="images/907a8d1f-a42a-426c-99cf-b9c744f66b57rust.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2713834';" class="drop blue">
+                        <div class="drop-image">
+                            <img src="images/mfUO1PnqqK-g22carbonRARE.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-22.userapi.com/s/v1/ig2/c7Jg1OMlfCySHrY5jA0wcKWscCXR6EOjNxz_DU7x3aOM44PCtbyfifIohLDcUMCYbNgzlVdXp5I-McFbd7cLxQ89.jpg?size=200x0&amp;quality=96&amp;crop=269,411,850,850&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Леса</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2050594';" class="drop purple">
+                        <div class="drop-image">
+                            <img src="images/49YmYMA7vp-Screenshot_87.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/XjRN72jeIXFjT3wpY1pjXWoWRxYDDs_FY0wCh1zqPxKBHkY3B-ws1k6-BgVYXXyOaRzUXXyDCkjdq4P8KZahmnoF.jpg?size=200x0&amp;quality=96&amp;crop=1,180,1101,1101&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Влад</span>
+                            </div> 
+                            <img src="images/c048fe01-5e2b-410b-a0ae-bb37e697a3155_00000.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2693214';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/NFed73B3Zl-ump45%20pixel%20v2.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://vk.com/images/camera_200.png" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Марк</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1931026';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/rjMz66wlJT-Screenshot_19.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-22.userapi.com/s/v1/ig2/hFHDoMygF8B4W0PiSMBiyOZ7IHeMIs3mERlN-6FL2LYVyg5EW32wnuL8eElMtKSBFVwbRVPAuKFn5OdP9-2NNMcD.jpg?size=200x0&amp;quality=96&amp;crop=0,287,735,735&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Егор</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2629451';" class="drop blue">
+                        <div class="drop-image">
+                            <img src="images/mfUO1PnqqK-g22carbonRARE.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://vk.com/images/camera_200.png" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Ярик</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2050594';" class="drop blue">
+                        <div class="drop-image">
+                            <img src="images/htoe76qxEO-fs%20tactical.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/XjRN72jeIXFjT3wpY1pjXWoWRxYDDs_FY0wCh1zqPxKBHkY3B-ws1k6-BgVYXXyOaRzUXXyDCkjdq4P8KZahmnoF.jpg?size=200x0&amp;quality=96&amp;crop=1,180,1101,1101&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Влад</span>
+                            </div> 
+                            <img src="images/594e5118-9ed6-47f8-a721-fec06b60ed914_00000.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2753546';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/zNr4d7EsUu-Screenshot_164.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://vk.com/images/camera_200.png" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Алексей</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1046529';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/M1XyTc0Ace-Screenshot_77.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/edIzIsMVPu28-bhFyicBvLs3iH9hMriEqSOvu879ijnCpD5OzjD5kdF6j-WAhsRAiZAATjtFucX2M9KckbA4wtsc.jpg?size=200x0&amp;quality=96&amp;crop=162,162,1296,1296&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Игнат</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2753663';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/rjMz66wlJT-Screenshot_19.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-22.userapi.com/s/v1/ig2/2ororLFSbythMFYOszWywBnmo1i3wFD_oTcHqx_28D7byKs0d7aYWibwwDKbXpDfdRoJgBemmn8sK1TMAQ2q47Tx.jpg?size=200x0&amp;quality=96&amp;crop=0,0,200,200&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Даниил</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/537531';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/zNr4d7EsUu-Screenshot_164.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://vk.com/images/camera_200.png" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Павел</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1617327';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/7vnlSL3zNa-Screenshot_160.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/2UWmtmvL0Lq9jBENpt5HikHNOo9nY5s1MjR2OIUAtvb5UYTVivXwzqfgGRF4Hos5exGNKmj1AyZi_Gs2cePBbTOo.jpg?size=200x0&amp;quality=96&amp;crop=0,1,898,898&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Мирон</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1221185';" class="drop purple">
+                        <div class="drop-image">
+                            <img src="images/eNaDD3mxex-ump45%20cerberus.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/GyUYwTH6SLl1pJEFqCDOpkgvwtxpksI3SgVwwaWCfIumK4SWXr8znMlpItn05vEI592QozWKRyfNCgO3FhKMfjfQ.jpg?size=200x0&amp;quality=96&amp;crop=95,95,559,559&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Иван</span>
+                            </div> 
+                            <img src="images/116-zone9.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1966522';" class="drop blue">
+                        <div class="drop-image">
+                            <img src="images/htoe76qxEO-fs%20tactical.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://lh3.googleusercontent.com/a-/AOh14Giqaz1ZfTuV9Y5-2pTFn3-buOaBAjAOMqscKHaV=s96-c" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Danu</span>
+                            </div> 
+                            <img src="images/e4d76ca4-d465-49b3-ab38-50aa997e4aae%C3%90%C2%B1%C3%91_%C3%90%C2%BE%C3%90%C2%BD%C3%90%C2%B7%C3%90%C2%BE%C3%90%C2%B2%C3%91_%C3%90%C2%B9.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2394401';" class="drop pink">
+                        <div class="drop-image">
+                            <img src="images/nZQWFYGPHj-Screenshot_83.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-21.userapi.com/s/v1/ig2/-_vliBRvVO42zfts1CVTwhpaZkGyTgGqt4D7Xyme4C6IP4a7oCxE1uERmTnJo3JJ_6XAlcT9nqp6exTMVUfw4Gku.jpg?size=200x0&amp;quality=96&amp;crop=342,0,1876,1876&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Povilas</span>
+                            </div> 
+                            <img src="images/snay.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2459427';" class="drop blue">
+                        <div class="drop-image">
+                            <img src="images/htoe76qxEO-fs%20tactical.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/yto7jLT4NzpHwCesTNF7N36jOnXG7VpaqLijxTIVPE0K2ZnkPlzqF1qE2RkRQPkD2C_kNBX5lU7MBqYaKqOjFImj.jpg?size=200x0&amp;quality=96&amp;crop=1,24,538,538&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Кирилл</span>
+                            </div> 
+                            <img src="images/594e5118-9ed6-47f8-a721-fec06b60ed914_00000.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2050594';" class="drop purple">
+                        <div class="drop-image">
+                            <img src="images/U4ti3lKtrf-Screenshot_153.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/XjRN72jeIXFjT3wpY1pjXWoWRxYDDs_FY0wCh1zqPxKBHkY3B-ws1k6-BgVYXXyOaRzUXXyDCkjdq4P8KZahmnoF.jpg?size=200x0&amp;quality=96&amp;crop=1,180,1101,1101&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Влад</span>
+                            </div> 
+                            <img src="images/594e5118-9ed6-47f8-a721-fec06b60ed914_00000.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1576986';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/M1XyTc0Ace-Screenshot_77.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-22.userapi.com/s/v1/ig2/EsNCmQGKcD_-osHew3Ch5EKxFWPParHxE2vma-Q0GY-JYGs2MLP75dMWHs5CdAC6gBPLYRg2QnR9UgvfnpV8bqOU.jpg?size=200x0&amp;quality=96&amp;crop=160,0,959,959&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Арсений</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2354964';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/MlXelACpst-Screenshot_5.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-22.userapi.com/s/v1/ig2/fZKrBtOxUWZ7scEWOSW636hoK38oPqmnLpO2_OFN7WtqunW_wUPBfh-yAg7bKJ2PwjiE5sPH_SUI4_SKIhfIM3K8.jpg?size=200x0&amp;quality=96&amp;crop=379,0,720,720&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Ахмед</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1221185';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/zNr4d7EsUu-Screenshot_164.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/GyUYwTH6SLl1pJEFqCDOpkgvwtxpksI3SgVwwaWCfIumK4SWXr8znMlpItn05vEI592QozWKRyfNCgO3FhKMfjfQ.jpg?size=200x0&amp;quality=96&amp;crop=95,95,559,559&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Иван</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2394401';" class="drop pink">
+                        <div class="drop-image">
+                            <img src="images/cNCzKD2sgO-Screenshot_125.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-21.userapi.com/s/v1/ig2/-_vliBRvVO42zfts1CVTwhpaZkGyTgGqt4D7Xyme4C6IP4a7oCxE1uERmTnJo3JJ_6XAlcT9nqp6exTMVUfw4Gku.jpg?size=200x0&amp;quality=96&amp;crop=342,0,1876,1876&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Povilas</span>
+                            </div> 
+                            <img src="images/snay.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2050594';" class="drop purple">
+                        <div class="drop-image">
+                            <img src="images/rXfnn0DMwQ-usp%20pisces.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-23.userapi.com/s/v1/ig2/XjRN72jeIXFjT3wpY1pjXWoWRxYDDs_FY0wCh1zqPxKBHkY3B-ws1k6-BgVYXXyOaRzUXXyDCkjdq4P8KZahmnoF.jpg?size=200x0&amp;quality=96&amp;crop=1,180,1101,1101&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Влад</span>
+                            </div> 
+                            <img src="images/594e5118-9ed6-47f8-a721-fec06b60ed914_00000.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1966522';" class="drop blue">
+                        <div class="drop-image">
+                            <img src="images/fPX1zAO3zW-Screenshot_80.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://lh3.googleusercontent.com/a-/AOh14Giqaz1ZfTuV9Y5-2pTFn3-buOaBAjAOMqscKHaV=s96-c" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Danu</span>
+                            </div> 
+                            <img src="images/e4d76ca4-d465-49b3-ab38-50aa997e4aae%C3%90%C2%B1%C3%91_%C3%90%C2%BE%C3%90%C2%BD%C3%90%C2%B7%C3%90%C2%BE%C3%90%C2%B2%C3%91_%C3%90%C2%B9.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/573617';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/aqHabYQW6j-Screenshot_6.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-21.userapi.com/s/v1/ig2/Ghd0_kf06gjMRwC4SHRZz3ovzNKFTdcTuGt4E0FQGsjpsOxgx90W5jPS8yNBIvOJ-PhvxrNF5U-gO7mc8-HsyRAN.jpg?size=200x0&amp;quality=96&amp;crop=7,537,1600,1600&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Эльдар</span>
+                            </div> 
+                            <img src="images/c048fe01-5e2b-410b-a0ae-bb37e697a3155_00000.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2713542';" class="drop blue">
+                        <div class="drop-image">
+                            <img src="images/s0wYc8W8Cr-p350%20autumn.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-21.userapi.com/s/v1/ig2/BoOmN-6qtgsFmnrD3QS1A5SQ4cH4_0N8RwPQDI9zRyjNTFZBdexCSjLsT30CNa20PlRaZjriALWbxEuZ1Vu3_16w.jpg?size=200x0&amp;quality=96&amp;crop=2,22,697,697&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Иван</span>
+                            </div> 
+                            <img src="images/e162b437-ce8c-40a2-ba6a-0ba1e10b2aeaprovince.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2394401';" class="drop pink">
+                        <div class="drop-image">
+                            <img src="images/8XbvyiEFcb-Screenshot_137.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-21.userapi.com/s/v1/ig2/-_vliBRvVO42zfts1CVTwhpaZkGyTgGqt4D7Xyme4C6IP4a7oCxE1uERmTnJo3JJ_6XAlcT9nqp6exTMVUfw4Gku.jpg?size=200x0&amp;quality=96&amp;crop=342,0,1876,1876&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Povilas</span>
+                            </div> 
+                            <img src="images/snay.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2099469';" class="drop blue">
+                        <div class="drop-image">
+                            <img src="images/iAPicIz8MU-sm1014waveRARE.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://lh4.googleusercontent.com/-z4LaqAi6ouo/AAAAAAAAAAI/AAAAAAAAAAA/AMZuucnnqG620ZovRfHXhW8GyUZ6tgPdlA/s96-c/photo.jpg" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Тимофей</span>
+                            </div> 
+                            <img src="images/26-14_00000.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/2753659';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/dCG1BTJPlA-Screenshot_78.png" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-20.userapi.com/s/v1/ig2/jEd5AJHaf9dnxMa7tLdhrwsXhakuFMBFhpOM0cUka1MXqNlvsE2e_vqDfdXGBaAG1ykrKAiXRwNhP5z0o1Nc158W.jpg?size=200x0&amp;quality=96&amp;crop=0,291,497,497&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Медихан</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                     
+                    <div onclick="window.location.href='/profile/1251971';" class="drop skyblue">
+                        <div class="drop-image">
+                            <img src="images/y7hjOaJsrW-tec9%20aurora.jpg" class="drop-image__image">
+                        </div> 
+                        <div class="info">
+                            <div class="person">
+                                <img src="https://sun6-22.userapi.com/s/v1/if1/IlJBMyOz8te6CFwyR6GFHYBj62ihI41GYNVvPXKuI3GyuhkN1JsLdKI-4w1SFMGYcv72n2F8.jpg?size=200x0&amp;quality=96&amp;crop=89,1,959,959&amp;ava=1" class="avatar" onerror="img_error(this)">
+                                <span class="nickname">Sergey</span>
+                            </div> 
+                            <img src="images/4c4f3e49-798f-4584-8a97-77693218bfd43_00000%20%283%29.png" class="dropped">
+                        </div>
+                    </div>
+                                    </div>
+            </div>
+        </header>
+        
+        <main>
+            <app :language="{
+   " lang":"ru", "ru.lang":"Русский", "en.lang":"English", "lang.current":"Русский", "currency":"Р", "currency.full":"руб", "points": "Б", "points.full": "баллов", "multiplier":"1", "auth":"Авторизоваться", "loading":"Загрузка...", "header.menu.main":"Главная", "header.menu.contracts":"Контракты", "header.menu.ref":"Бесплатно", "header.menu.top":"Топ", "header.menu.contacts":"Контакты", "header.menu.faq":"FAQ", "header.ads.timer": "Окончание через: ", "header.ads.text": "<span>Весенние скидки <span class="\"underbar__title" underbar__noted\"> -30% на всё!</span>",
+   "profile.auth":"Авторизироваться",
+   "profile.profiletext":"Профиль",
+   "case.theme.unique":"Эксклюзивная серия",
+   "case.theme.our":"Наша сборка",
+   "case.theme.standart":"Стандартная сборка",
+   "case.theme.youtube":"Ютуберская серия",
+   "case.theme.predmeti":"Бонусная серия",
+   "case.theme.free":"Бесплатные кейсы",
+   "case.theme.school":"Школьная серия",
+   "case.theme.newyear":"Новогодняя серия",
+   "case.theme.yagod":"Ягодная серия",
+   "case.open":"Открыть кейс",
+   "case.already":"Идет открытие",
+   "case.retry":"Открыть еще",
+   "case.open2":"Открыть",
+   "case.freeopen":"Бесплатно",
+   "case.will":"Может выпасть",
+   "case.1":"Спецназ",
+   "case.2":"Террорист",
+   "case.3":"Ножевой",
+   "case.4":"Снайперский",
+   "case.5":"Пистолетный",
+   "case.6":"Золотой",
+   "case.7":"Миллионер",
+   "case.8":"Читер",
+   "case.9":"Ютубер Сней",
+   "case.10":"Новичок",
+   "case.11":"Ветеран",
+   "case.12":"Нуб",
+   "case.13":"Профи",
+   "case.14":"Школа",
+   "case.15":"Колледж",
+   "case.16":"Все или ничего",
+   "case.18":"Rare",
+   "case.19":"Epic",
+   "case.20":"Legendary",
+   "case.21":"Arcane",
+   "case.22":"Калыван",
+   "case.24":"Фарм ножа",
+   "case.25":"Школьник",
+   "case.26":"Бомж",
+   "case.27":"Origin",
+   "case.28":"Furious",
+   "case.29":"Rival",
+   "case.30":"Gift Box",
+   "case.34":"Ютубер Веля",
+   "case.35":"Ютубер ТикТак",
+   "case.36":"Ютубер Lusik",
+   "case.37":"Ютубер Kent.apk",
+   "case.38":"Бесплатный кейс каждые 24 часа",
+   "case.40":"SandStone",
+   "case.41":"Платиновый Ветеран",
+   "case.42":"Rust",
+   "case.43":"Тиммейт",
+   "case.44":"Победа",
+   "case.45":"100.000 открытий",
+   "case.46":"Ютубер PROKAZNIK",
+   "case.47":"Ютубер VLADMIX",
+   "case.48":"Бронзовый Ветеран",
+   "case.49":"Серебряный Ветеран",
+   "case.50":"Золотой Ветеран",
+   "case.51":"Province",
+   "case.52":"Обновление",
+   "case.53":"Керамбит или ничего",
+   "case.54":"Тёплый",
+   "case.56":"Разработчик",
+   "case.57":"Институт",
+   "case.58":"Учитель",
+   "case.59":"Директор",
+   "case.60":"Биология",
+   "case.61":"История",
+   "case.62":"Литература",
+   "case.63":"Английский язык",
+   "case.64":"Информатика",
+   "case.65":"Физика",
+   "case.67":"Русский язык",
+   "case.68":"Физкультура",
+   "case.69":"Математика",
+   "case.70":"Химия",
+   "case.71":"500.000 открытий",
+   "case.72":"Подарок",
+   "case.73":"Только StatTrack",
+   "case.76":"Fable",
+   "case.77":"1.000.000 открытий",
+   "case.78":"Бабочка или ничего",
+   "case.80":"Цветочный",
+   "case.84":"Снеговик",
+   "case.79":"Птичий",
+   "case.81":"Весёлый",
+   "case.82":"Зима",
+   "case.83":"Ёлочка",
+   "case.85":"Android или IOS",
+   "case.86":"Биткоин",
+   "case.87":"BMW",
+   "case.88":"Майнинг Биткоина",
+   "case.89":"Илон Маск",
+   "case.90":"Коронавирус уйди!",
+   "case.91":"Лакшери",
+   "case.92":"ЕГЭ и ОГЭ",
+   "case.93":"Тесла",
+   "case.94":"Наклейки",
+   "case.95":"Снегурочка",
+   "case.96":"Scorpion",
+   "case.97":"Апельсиновый",
+   "case.98":"Арбузный",
+   "case.99":"Банановый",
+   "case.100":"Вишневый",
+   "case.101":"Клубничный",
+   "case.102":"Лимонный",
+   "case.103":"Малиновый",
+   "case.104":"Яблочный",
+   "case.105":"10.000.000 открытий",
+   "case.106":"Каникулы",
+   "case.107":"Прощай школа",
+   "case.108":"Дед Мороз",
+   "case.109":"Радужный",
+   "case.110":"Рассвет",
+   "case.111":"Спорткар",
+   "case.112":"Травка зеленеет",
+   "case.113":"Zone 9",
+   "case.114":"Project Z9",
+   "case.115":"Перчаточный",
+   "case.116":"Брелки",
+   "case.117":"Revival",
+   "case.118":"Смок",
+   "case.119":"Флешка",
+   "case.120":"Хаешка",
+   "case.fortune":"Барабан бонусов",
+   "case.fortune.desc":"Крути барабан бонусов бесплатно 1 раз в 5 дней или вводи секретный код и получай крутые бонусы",
+   "case.free.inspire": "Как открыть?",
+   "case.free.1": "Открывай каждые 2 часа",
+   "case.free.2": "Открывай каждые 3 дня",
+   "case.free.done": "Для открытия выполните условия",
+   "case.free.timer": "Следующее открытие через",
+   "case.free.target": "Статус задания: ",
+   "case.free.target.done": "Задание выполнено",
+   "case.free.target.undone": "Задание не выполнено",
+   "case.free.done.text": "Условия открытия",
+   "statistic.1":"Кейсов открыто",
+   "statistic.2":"Контрактов сделано",
+   "statistic.3":"Пользователей",
+   "statistic.4":"Онлайн",
+   "footer.desc":"На нашем сайте вы можете открыть различные кейсы по игре Standoff 2 и самым выгодным ценам",
+   "footer.faq":"Пользовательское соглашение",
+   "top_up":"Пополнить",
+   "profile.logout":"Выйти",
+   "profile.vk":"Профиль ВК",
+   "profile.stat.1":"Кейсов открыто",
+   "profile.stat.2":"Контрактов создано",
+   "profile.avatar.text":"Ваша аватарка в Standoff 2:",
+   "profile.avatar.edit":"Изменить",
+   "profile.withdraw.1":"Для успешного вывода скина с сайта, необходимо установить аватарку как в Вашем Standoff 2 аккаунте!",
+   "profile.lovecase":"Любимый кейс",
+   "profile.inventory":"Ваш инвентарь",
+   "profile.sellall":"Продать всё",
+   "profile.inventory.history":"История инвентаря",
+   "profile.inventory.loadagain":"Загрузить ещё",
+   "profile.inventory.load":"Ваш инвентарь пуст - ",
+   "profile.inventory.load_1":"откройте кейс",
+   "profile.inventory.loadhistory":"Вы еще не выводили или продавали предметы",
+   "profile.contracts":"Ваши контракты",
+   "profile.contracts.load":"Ваша история контрактов пуста - <a style="\&quot;color:#ffc500\&quot;" href="_.html">создайте контракт</a>",
+   "contracts.sumcontracts":"Сумма контракта",
+   "contracts.useful.1":"Добавьте как минимум",
+   "contracts.useful.2":"предмета",
+   "contracts.btn.create":"Создать контракт",
+   "contracts.items.1":"Количество предметов",
+   "contracts.heading.win":"Ваш выигрыш",
+   "contracts.create.retry":"Создать ещё",
+   "contracts.empty.1":"У Вас нет предметов -",
+   "contracts.empty.2":"откройте кейс",
+   "contracts.btn.select":"Выбрать",
+   "contracts.btn.unselect":"Убрать",
+   "contracts.useful.3":"Вы получите предмет от",
+   "contracts.useful.4":"до",
+   "contracts.popup.title":"Подтверждение контракта",
+   "contracts.popup.id":"Номер контракта",
+   "contracts.popup.weapon.1":"Полученный предмет",
+   "contracts.popup.weapon.2":"Ожидаем...",
+   "contracts.popup.weapon.3":"Стоимость предмета",
+   "contracts.popup.sign":"Оставьте вашу роспись: ",
+   "contracts.popup.sum":"Сумма",
+   "contracts.popup.empty":"Пусто",
+   "contracts.popup.send":"Отправить",
+   "contracts.popup.footer":"Вам необходимо ознакомиться с контрактом, а затем подписать его. После подписания контракта, нажмите кнопку ”Отправить”.",
+   "anotherprofile.contacts":"Данный игрок не делал контрактов",
+   "anotherprofile.notsell":"Данный игрок не продавал или выводил предметы",
+   "anotherprofile.notitems":"У данного игрока нет предметов",
+   "anotherprofile.tab.1":"Дропы",
+   "anotherprofile.tab.2":"Контракты",
+   "anotherprofile.tab.3":"История инвентаря",
+   "anotherprofile.contracts.text":"Контрактов",
+   "anotherprofile.case.1":"Любимый",
+   "anotherprofile.case.2":"Кейс",
+   "anotherprofile.item.1":"Лучший",
+   "anotherprofile.item.2":"Дроп",
+   "anotherprofile.cases":"Кейсов",
+   "case.open.retry":"Открыть ещё",
+   "case.incontract":"В контракт",
+   "case.withdraw.profile":"Предметы можно вывести в ",
+   "case.withdraw.profile.text":"профиле",
+   "case.open.clue.1":"Для открытия кейса",
+   "case.open.clue.2":"Вам не хватает",
+   "case.payment.top_up":"Пополнить баланс",
+   "case.open.slow":"Открыть обычно",
+   "case.open.fast":"Открыть быстро",
+   "case.open.retry2":"Попробовать ещё",
+   "case.sellall":"Продать всё за",
+   "case.item.sell":"Продать за",
+   "popup.more.1":"Подробнее в",
+   "popup.more.2":"разделе FAQ",
+   "popup.contract.title":"Подтверждение контракта",
+   "popup.contract.desc.1":"Войдите в Standoof аккаунт. Это нужно затем, чтобы мы могли зайти на аккаунт",
+   "popup.contract.desc.2":"и выдать нужный скин, так как в игре на данный момент нет системы обменов",
+   "popup.topup.title":"Пополнение баланса",
+   "popup.topup.desc":"Для пополнения баланса вы будете перемещены на сайт платёжной системы",
+   "popup.10w.title":"Ошибка вывода предмета",
+   "popup.10w.desc.1":"Данный предмет недоступен для вывода так как его цена на рынке",
+   "popup.10w.desc.2":"не превышает",
+   "popup.10w.desc.3":"голды!",
+   "popup.10w.more.1":"Есть вопросы? Пишите в группу поддержки",
+   "popup.10w.more.2":"ВКонтакте",
+   "popup.10j.desc":"Данный предмет нельзя вывести, попробуйте позже!",
+   "popup.10pp.title":"Ошибка",
+   "popup.10pp.desc":"В Вашем инвентаре нет предметов, которые можно продать",
+   "popup.50b.title":"Вывод",
+   "popup.50b.desc.1":"Для получения приза в виде голды в игре, Вам необходимо:",
+   "popup.50b.desc.2":"1) Поставить любой скин на продажу (количество предложений которого не более",
+   "popup.50b.desc.3":"на рынке)",
+   "popup.50b.desc.4":"на рынок в игре Standoff 2 по цене",
+   "popup.50b.desc.5":"голды и написать название скина в окошко ниже.",
+   "popup.50b.desc.6":"2) Проверить, одинаковая ли аватарка у Вас стоит в профиле на сайте",
+   "popup.50b.desc.7":"и в игре Standof 2, иначе мы не можем отправить выигрыш!",
+   "popup.50b.extra.1":"Введите название скина",
+   "popup.50b.extra.2":"Я выполнил это действие",
+   "popup.bonus1000.title": "Ошибка розыгрыша",
+   "popup.bonus1000.desc": "Ваш ID будет проверен модераторами сайта в течении некоторого времени,<br>после чего Вы автоматически станете участниками конкурса.<br><br>Если Вы еще не добавили в свой ник название сайта «standoffcase.com»,<br> то скорее сделайте это!",
+   "popup.bonus1000_0ge.desc": "Ваш ID был отклонен модераторами сайта!<br><br>Это произошло из за того, что Вы указали не правильный ID в игре,<br> либо же не добавили в свой ник игры название сайта «standoffcase.com»<br><br>Исправьте все ошибки и повторите попытку!",
+   "popup.bonus1000_cancel.desc": "Пополните баланс на <span style="\&quot;font-weight:" 600;color:#ffc500;\">${payment} / ${sum} руб</span>, после чего Вы сможете принять участие!",
+   "popup.0ge.title":"Ваш предмет возвращен!",
+   "popup.0ge.desc.1":"Из-за ошибки вывода Вашего скина с сайта",
+   "popup.0ge.desc.2":", проверьте:",
+   "popup.0ge.desc.3":"1) Точно ли Вы выставили скин на рынок в игре, кол-во которого не более",
+   "popup.0ge.desc.4":"предложений,",
+   "popup.0ge.desc.5":"а так же правильное ли название скина Вы написали в окне при выводе на сайте!",
+   "popup.0ge.desc.6":"2) Так же проверьте, одинаковая ли аватарка установлена в Вашем профиле на сайте",
+   "popup.0ge.desc.7":"и в самой игре Standoff 2, если нет, то установите или замените её!",
+   "popup.0ge.extra":"Я все прочитал и понял!",
+   "popup.20ps.title":"Ошибка",
+   "popup.20ps.desc":"Для успешного вывода скина с сайта, необходимо установить аватарку как в Вашем <br> Standoff 2 аккаунте! Это действие необходимо для идентификации вашего <br> профиля Standoff 2.",
+   "popup.20ps.extra.1":"Ваша аватарка в Standoff 2:",
+   "popup.20ps.extra.2":"Изменить",
+   "popup.30se.title":"Подтверждение продажи",
+   "popup.30se.desc":"Вы действительно хотите продать этот предмет?",
+   "popup.30se.extra.1":"Да",
+   "popup.30se.extra.2":"Нет",
+   "popup.40se.desc.1":"Вы действительно хотите продать все предметы за",
+   "popup.40se.desc.2":"руб?",
+   "popup.auth.title":"Авторизация",
+   "popup.auth.desc.1":"Авторизируясь, вы подтверждаете",
+   "popup.auth.desc.2":"пользовательское соглашение",
+   "popup.auth.extra.vk":"ВКонтакте",
+   "popup.freecase.title":"Бесплатный каждые 24 часа",
+   "popup.freecase.desc.1":"Для открытия бесплтаного кейса необходимо подписать на ",
+   "popup.freecase.desc.2":"группу ВК",
+   "popup.freecase.extra":"Я понял",
+   "popup.YouTube_error.title":"Профиль YouTube",
+   "popup.YouTube_error.desc":"Возникли неполадки на стороне сервиса Google и мы не смогли получить ссылку на профиль пользователя, который авторизовался через YouTube!",
+   "top.heading":"Топ игроков",
+   "contacts.heading":"Контакты",
+   "contacts.domain.name":"Доменное имя:",
+   "contacts.support":"Поддержка:",
+   "contacts.vk":"Группа ВКонтакте:",
+   "faq.heading":"Вопросы и ответы",
+   "profile.item.sell":"Продать",
+   "profile.item.withdraw":"Вывести",
+   "profile.item.accept":"Применить",
+   "profile.item.delete":"Удалить",
+   "profile.contracts.contract.title":"Предметы контракта",
+   "profile.contracts.contract.price":"Стоимость контракта",
+   "bonus.heading":"Бонус к пополнению",
+   "bonus.desc.1":"Введи этот промокод при",
+   "bonus.desc.2":"пополнении баланса",
+   "bonus.desc.3":"и получи +10% к сумме пополнения.",
+   "top.place":"место",
+   "top.cases":"Кейсов",
+   "top.contracts":"Контрактов",
+   "top.profit":"Профит",
+   "top.user":"Пользователь",
+   "top.cases1":"Кейсы",
+   "top.contracts1":"Контракты",
+   "live.heading":"дропы",
+   "live.numbers.1":"кейсов",
+   "live.numbers.2":"уже вскрыты",
+   "case.win":"Ваш выигрыш",
+   "promocode.placeholder":"Промокод",
+   "promocode.1":"Если у Вас есть промокод, введите выше",
+   "promocode.2":"Бонус к пополнению",
+   "promocode.3":"Такого промокода нет",
+   "promocode.4":"Введите сумму",
+   "promocode.5":"Пополнить баланс",
+   "popup.onlyvk.title":"Бесплатный кейс",
+   "popup.onlyvk.desc":"Бесплатный кейс можно открыть, если Вы авторизованы на сайте через ВКонтакте",
+   "popup.onlyvk2.title":"Бесплатный кейс",
+   "popup.onlyvk2.desc":"Бесплатный кейс можно открыть, если Вы авторизованы на сайте через ВКонтакте",
+   "popup.onlyvk.extra":"Я понял",
+   "sound":"Звук",
+   "sound.on":"Вкл",
+   "sound.off":"Выкл",
+   "faq.1.question":"Как я выведу скин с сайта?",
+   "faq.2.question":"Я не нашел ответа на вопрос, или есть предложение!",
+   "faq.2.answer.1":"Если вы не нашли ответа на свой вопрос в данном разделе, или же есть какое-либо предложение по сайту,",
+   "faq.2.answer.2":"то напишите на почту",
+   "faq.2.answer.3":"или в сообщения группы",
+   "faq.2.answer.4":"ВКонтакте",
+   "faq.3.question":"У Вас можно выбить хорошие скины?",
+   "faq.3.answer.1":"Да, ведь если бы на нашем сайте нельзя было выбить хорошие скины, то на нем бы не открывало кейсов столько людей. ",
+   "faq.3.answer.2":"У нас нет каких-либо определенных систем на выигрыш и все построено на шансах. ",
+   "faq.3.answer.3":"К примеру если Вы пополните свой счет всего на 100 руб, то сможете уйти с сайта как с самым дорогим скином в игре, так и полностью проиграть свои деньги. ",
+   "faq.3.answer.4":"Тут все зависит только от Вашей удачи!",
+   "faq.4.question":"Могу ли я сделать контракт на сайте?",
+   "faq.4.answer.1":"Да, Вы можете делать контракты на сайте, для этого перейдите в",
+   "faq.4.answer.2":"КОНТРАКТЫ",
+   "faq.4.answer.3":"в, положите от 3-ех любых скина в контракт, распишитесь и запустите его! ",
+   "faq.4.answer.4":"После чего Вы получите скин в промежутке x4 больше или меньше от той суммы, на которую добавили свои скины!",
+   "faq.5.question":"В течении какого времени ко мне придет выигрыш голдой?",
+   "faq.5.answer.1":"Обычно наши модераторы выводят голду в игру в течении 5 минут, до 1 часа, но на данный момент у нас на сайте играет очень много человек, в связи с этим возможны задержки на выводы до 24 часов.",
+   "faq.5.answer.2":"Просьба не волноваться и не спамить, выигрыши получат абсолютно все игроки нашего сайта!",
+   "faq.6.question":"Я или же сайт берет на себя комиссию на рынке в игре?",
+   "faq.6.answer.1":"Наш сайт сам берет на себя комиссию 20% на рынке в Standoff 2, таким образом Вы получите свой выигрыш в полной мере и без каких-либо потерь.",
+   "faq.7.question":"Почему нельзя выводить скин дешевле 25 голды?",
+   "faq.7.answer.1":"Это сделано специально для того, чтобы мы быстрее отправляли выигрыши игрокам сайта. ",
+   "faq.7.answer.2":"Как только в игре Standoff 2 появятся обмены, мы сразу же добавим возможность выводить скины от 0,01 голды!",
+   "faq.8.question":"Что за логотип другого сайта расположен сверху слева?",
+   "faq.8.answer.1":"Это новый сайт от создателей нашего проекта, а именно сайт по новому и уникальному формату открытия кейсов - StandoffCard.com",
+   "faq.9.question":"Как вывести деньги с сайта?",
+   "faq.9.answer.1":"Наш сайт не является азартной игрой, а тем более не является казино. ",
+   "faq.9.answer.2":"Деньги невозможно вывести с баланса, Вы можете лишь выигрывать скины и выводить их к себе в инвентарь Standoff 2.",
+   "faq.10.question":"Как пополнить баланс на сайте?",
+   "faq.10.answer.1":"Для начала авторизуйтесь через VK, Twitch, YouTube, Facebook в верхнем правом углу нажмите на \"+\", или же зайдите к себе в профиль и нажмите \"Пополнить\".",
+   "faq.10.answer.2":"Затем в открывшемся окне введите промокод (если он у Вас имеется), а так же укажите сумму пополнения. ",
+   "faq.10.answer.3":"Далее Вы будете перемещены на сайт, где будете должны выбрать удобный способ оплаты, затем после успешной оплаты деньги зачисляться на Ваш баланс сайта моментально, но иногда могут быть задержки платежной системы до двух часов.",
+   "faq.11.question":"Как я выведу скин с сайта?",
+   "faq.11.answer.1":"Вам необходимо зайти к себе в",
+   "faq.11.answer.2":"ПРОФИЛЬ",
+   "faq.11.answer.3":"установить аватарку как в Вашем профиле Standoff 2, затем выбрать предмет который хотите вывести и нажать на кнопку \"Вывести\".",
+   "faq.11.answer.4":"Далее откроется окно с инструкцией, в котором указано, что Вам необходимо выставить любой дешевый скин из Вашего инвентаря в Standoff 2, продаж которого на рынке не превышает 8.000 слотов по той цене, которая будет написана в открывшемся в окне, к примеру если предмет стоит 100 руб, то там может быть указана цена 100,01.",
+   "faq.11.answer.5":"Цена указывается в копейках для того, чтобы Ваш скин было удобнее найти модераторам сайта в самой игре.",
+   "faq.11.answer.6":"После чего наши модераторы купят Ваш дешевый предмет на рынке в Standoff 2 по цене того, который вы выиграли из кейса на сайте.",
+   "agreement.1.question":"Пользовательское соглашение",
+   "agreement.1.answer.1":"Пожалуйста ознакомьтесь с пользователським соглашением нашего сайта standoffcase.com до начала его использования ",
+   "agreement.1.answer.2":"Авторизация на сайте standoffcase.com осуществляется через учетную запись пользователя VK, Twitch, YouTube, Facebook. Сайт и VK, Twitch, YouTube, Facebook являются разными ресурсами, не подчиненными один другому. ",
+   "agreement.1.answer.3":"Авторизуясь на нашем сайте, Вы автоматически соглашаетесь с пользовательским соглашением сайта",
+   "agreement.1.answer.4":"Если Вы не согласны с пользовательским соглашением, то просим Вас не авторизирвоаться и не использовать наш сайт! ",
+   "agreement.1.answer.5":"Обновлено от 05.06.2019",
+   "agreement.2.question":"1. Термины и определения",
+   "agreement.2.answer.1":"1.1. В настоящем Соглашении, если из текста прямо не вытекает иное, следующие термины будут иметь указанные ниже значения: ",
+   "agreement.2.answer.2":"1.2. Сайт - совокупность информации, текстов, графических элементов, дизайна, изображений, фото и видеоматериалов и иных результатов интеллектуальной деятельности, а также программ для ЭВМ, содержащихся в информационной системе, обеспечивающей доступность такой информации в сети интернет по сетевому адресу standoffcase.com, так же наш сайт является интернет-ресурсом, предназначенным для оказания развлекательно-аттракционных услуг физическим лицам и не является сайтом для азартных игр, так как на сайте нельзя умножить и вывести реальные деньги! ",
+   "agreement.2.answer.3":"1.3. Названия заголовков (статей) соглашения предназначены исключительно для удобства пользования текстом, соглашения и буквального юридического значения не имеют. ",
+   "agreement.2.answer.4":"1.4. Кейс – безрискованная составляющая сайта с гарантированным выигрышем, открыв который можно получить предметы (скины) в свой личный инвентарь на сайте для дальнейшего их вывода в игру Standoff 2! ",
+   "agreement.2.answer.5":"1.5. Скин – виртуальный инвентарь многопользовательской, мобильной сетевой игры Standoff 2, на Сайте возможно использование виртуальных игровых атрибутов (виртуального инвентаря сетевой игры Standoff 2 и их элементы) - предоставленный Администратором Пользователю на безвозмездной основе по правилам Сайта. ",
+   "agreement.2.answer.6":"1.6. Баланс - виртуальный игровой баланс – сумма счета каждого игрока, который возможно увеличить, но невозможно вернуть обратно в реальные деньги, а лишь обменять на виртуальные предметы, данный баланс становится доступен после авторизации пользователя на сайте. ",
+   "agreement.2.answer.7":"1.7. Все остальные термины и определения, встречающиеся в тексте соглашения, толкуются сторонами в соответствии с законодательством Российской Федерации и сложившимися в сети интернет обычными правилами толкования соответствующих терминов. ",
+   "agreement.3.question":"2. Предмет соглашения",
+   "agreement.3.answer.1":"2.1. Администратор предоставляет пользователю: ",
+   "agreement.3.answer.2":"2.1.1 безвозмездную простую (неисключительную) лицензию на использование сайта и его программных средств по их прямому назначению, как то предусмотрено явными пользовательскими функциями сайта и личного кабинета; ",
+   "agreement.3.answer.3":"2.1.2 возмездную простую (неисключительную) лицензию на использование кейса по его прямому назначению, при этом стоимость лицензии на использование определенного кейса указана на сайте. ",
+   "agreement.3.answer.4":"2.2 Указанная в пункте 2.1.1 соглашения лицензия предоставляется пользователю на срок, в течение которого, и в пределах территории, на которой сайт и личный кабинет остаются доступными для пользователя. ",
+   "agreement.3.answer.5":"2.3. Указанная в пункте 2.1.2 соглашения лицензия предоставляется пользователю в пределах территории, на которой кейс остается доступным для пользователя в течение срока с момента оплаты пользователем вознаграждения за использование конкретного кейса до момента определения инвентаря с помощью такого кейса. ",
+   "agreement.3.answer.6":"2.4. Пользователю запрещается: ",
+   "agreement.3.answer.7":"2.4.1 обходить технические ограничения, установленные на сайте и в кейсе; ",
+   "agreement.3.answer.8":"2.4.2 изучать технологию, декомпилировать или дизассемблировать сайт, кейс и личный кабинет, за исключением случаев, прямо предусмотренных законодательством российской федерации; ",
+   "agreement.3.answer.9":"2.4.3 создавать копии экземпляров сайта, кейсов и личного кабинета, а также их внешнего оформления (дизайна); ",
+   "agreement.3.answer.10":"2.4.4 изменять сайт, кейсы и личный кабинет каким бы то ни было способом; ",
+   "agreement.3.answer.11":"2.4.5 совершать действия, направленные на изменение функционирования и работоспособности сайта; ",
+   "agreement.3.answer.12":"2.4.6 предоставлять доступ к личному кабинету третьему лицу; ",
+   "agreement.3.answer.13":"2.4.7 осуществлять указанные выше действия в отношении любой части сайта. ",
+   "agreement.4.question":"3. Функции Сайта, Кейса и Личного кабинета",
+   "agreement.4.answer.1":"3.1. Пользователь посредством Сайта имеет возможность: ",
+   "agreement.4.answer.2":"3.1.1. знакомиться с содержанием и характеристиками инвентаря, выбор которого происходит посредством определенного кейса, и стоимостью лицензии на использование такого кейса; ",
+   "agreement.4.answer.3":"3.1.1. приобретать лицензию на использование кейса и получать соответствующий инвентарь в порядке, указанном в соглашении. ",
+   "agreement.4.answer.4":"4.2. Пользователь посредством кейса имеет возможность получить один из предоставленных на странице, содержащей кейс, инвентарей. Инвентарь для получения пользователем определяется автоматически посредством использования кейса. ",
+   "agreement.4.answer.5":"4.3. Пользователь посредством Личного кабинета имеет возможность: ",
+   "agreement.4.answer.6":"4.3.1. принять Инвентарь в аккаунт Standoff 2; ",
+   "agreement.5.question":"4. Особые условия",
+   "agreement.5.answer.1":"4.1. Сайт может содержать ссылки на другие сайты в сети интернет (сайты третьих лиц). Указанные третьи лица и их контент не проверяются администратором на соответствие тем или иным требованиям (достоверности, полноты, законности и т.п.). Администратор не несет ответственности за любую информацию, материалы, размещенные на сайтах третьих лиц, к которым пользователь получает доступ в связи с использованием сайта, в том числе: за любые мнения или утверждения, выраженные на сайтах третьих лиц, рекламу и т.п., а также за доступность таких сайтов или контента и последствия их использования пользователем. ",
+   "agreement.5.answer.2":"4.2. Администратор не гарантирует, что сайт соответствует требованиям пользователя, что доступ к сайту будет предоставляться непрерывно, быстро, надежно и без ошибок. Программно-аппаратные ошибки, как на стороне администратора, так и на стороне пользователя, приведшие к невозможности получения пользователем доступа к сайту и/или личному аккаунту пользователя на сайте, являются обстоятельствами непреодолимой силы и основанием освобождения от ответственности за неисполнение обязательств администратором по соглашению. ",
+   "agreement.5.answer.3":"4.3 Администратор вправе уступать права и переводить долги по всем обязательствам, возникшим из соглашения. Настоящим пользователь дает свое согласие на уступку прав и перевод долга любым третьим лицам. О состоявшейся уступке прав и/или переводе долга администратор информирует пользователя, размещая соответствующую информацию на сайте и такое уведомление стороны признают достаточным. ",
+   "agreement.5.answer.4":"4.3. Администратор вправе отказать любому пользователю в обслуживании на сайте без объяснения причин. ",
+   "agreement.5.answer.5":"4.4. В некоторых случаях использования сайта (в том числе, но, не ограничиваясь: в случае возникновения спора между сторонами, в случае предоставления пользователю каких-либо эксклюзивных опций на сайте и в иных случаях, перечень не закрытый) Администратором может быть предложено пользователю сообщить администратору персональные данные пользователя. В этом случае, предоставляя свои персональные данные, пользователь тем самым соглашается (без совершения на то каких бы то ни было дополнительных формальных процедур кроме акцепта настоящего соглашения) на то, что администратор вправе обрабатывать персональные данные, предоставленные Пользователем, т.е. совершать любое действие (операция) или совокупность действий (операций), совершаемых с использованием средств автоматизации или без использования таких средств с персональными данными, включая сбор, запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), обезличивание, блокирование, удаление, уничтожение персональных данных, предоставленных пользователем ",
+   "agreement.6.question":"5. Персональные данные",
+   "agreement.6.answer.1":"5.1. Пользователь дает свое согласие администратору на обработку информации, в том числе, персональных данных пользователя, предоставленных при использовании сайта, а именно данных, указанных в аккаунте пользователя в VK и Standoff 2. ",
+   "agreement.6.answer.2":"5.1. Обработка персональных данных означает запись, систематизацию, накопление, хранение, уточнение (обновление, изменение), извлечение, использование, передачу (распространение, предоставление, доступ), в том числе трансграничную, обезличивание, блокирование, удаление, уничтожение персональных данных, не подпадающих под специальные категории, на обработку которых, согласно действующему законодательству Российской Федерации, требуется письменное согласие пользователя. ",
+   "agreement.6.answer.3":"5.1. Обработка персональных данных производится в целях исполнения Сторонами обязательств по соглашению, регистрации пользователя на сайте, приобретения лицензии на использование кейса, получения инвентаря, направления на адрес электронной почты пользователя сообщений информационного и иного характера. ",
+   "agreement.6.answer.4":"5.1. Пользователь может в любое время отозвать согласие на обработку персональных данных, направив администратору соответствующее письменное уведомление на адрес support@standoffcase.com заказным письмом с уведомлением о вручении. При этом пользователь понимает, что такой отзыв означает прекращение действия соглашения. Администратор вправе продолжить обработку персональных данных пользователя в предусмотренных законом случаях. ",
+   "agreement.6.answer.5":"5.1. Дополнительные или иные положения в отношении обработки персональных данных могут содержаться в соответствующем документе, размещенном или размещаемом на Сайте. В случае, противоречия положений такого документа положениям настоящего раздела применяются положения документа. ",
+   "agreement.6.answer.6":"5.1. Пользователь дает согласие на получение рекламных материалов от администратора, его аффилированных лиц либо от иных лиц по поручению администратора на адрес электронной почты, указанный пользователем при регистрации в аккаунте VK, YouTube, Twitch, Facebook. Согласие на получение рекламных материалов может быть отозвано пользователем в любое время путем направления администратору соответствующего письменного уведомления на адрес support@standoffcase.com, либо путем совершения действий, указанных в сообщениях (электронных письмах), содержащих такие материалы. ",
+   "agreement.7.question":"6. Порядок разрешения споров",
+   "agreement.7.answer.1":"6.1. Все споры, разногласия и претензии, которые могут возникнуть в связи с исполнением, расторжением или признанием недействительным соглашения, стороны будут стремиться решить путем переговоров. Сторона, у которой возникли претензии и/или разногласия, направляет другой стороне сообщение с указанием возникших претензий и/или разногласий в соответствии с пунктом 6.1 Соглашения. ",
+   "agreement.7.answer.2":"w6.2. В случае если ответ на сообщение не будет получен направившей сообщение стороной в течение 30 (тридцати) рабочих дней с даты направления соответствующего сообщения, либо если стороны не придут к соглашению по возникшим претензиям и/или разногласиям, спор подлежит разрешению в судебном порядке по месту нахождения администратора. ",
+   "agreement.8.question":"7. Заключительные положения",
+   "agreement.8.answer.1":"7.1. Настоящим Стороны подтверждают, что при исполнении (изменении, дополнении, прекращении) соглашения, а также при ведении переписки по указанным вопросам, допускается использование аналогов собственноручной подписи сторон. Стороны подтверждают, что все уведомления, сообщения, соглашения и документы в рамках исполнения сторонами обязательств, возникших из соглашения, подписанные аналогами собственноручной подписи сторон, имеют юридическую силу и обязательны для исполнения сторонами. Под аналогами собственноручной подписи понимаются уполномоченные адреса электронной почты и учетные данные к личному кабинету. ",
+   "agreement.8.answer.2":"7.2. Стороны признают, что все уведомления, сообщения, соглашения, документы и письма, направленные с использованием уполномоченных адресов электронной почты и личного кабинета, считаются направленными и подписанными сторонами, кроме случаев, когда в таких письмах прямо не указано обратное. ",
+   "agreement.8.answer.3":"7.3. Уполномоченными адресами электронной почты Сторон признаются: ",
+   "agreement.8.answer.4":"для администратора: support@standoffcase.com",
+   "agreement.8.answer.5":"для пользователя: адрес электронной почты, указанный при регистрации аккаунта в VK, Twitch, YouTube, Facebook",
+   "agreement.8.answer.6":"7.4. Стороны обязуются обеспечивать конфиденциальность сведений и информации, необходимых для доступа к уполномоченным адресам электронной почты и личному кабинету, не допускать разглашение такой информации и передачу третьим лицам. Стороны самостоятельно определяют порядок ограничения доступа к такой информации. ",
+   "agreement.8.answer.7":"7.5. При использовании уполномоченных адресов электронной почты, до момента получения от второй стороны информации о нарушении режима конфиденциальности, все действия и документы, совершенные и направленные с помощью уполномоченного адреса электронной почты второй стороны, даже если такие действия и документы были совершены и направлены иными лицами, считаются совершенными и направленными такой второй стороной. В этом случае права и обязанности, а также ответственность наступают у такой второй стороны. ",
+   "agreement.8.answer.8":"7.6. При использовании личного кабинета, до момента получения от пользователя информации о нарушении режима конфиденциальности, все действия и документы, совершенные и направленные с помощью личного кабинета, даже если такие действия и документы были совершены и направлены иными лицами, считаются совершенными и направленными пользователем. В этом случае права и обязанности, а также ответственность наступают у пользователя. ",
+   "agreement.9.question":"8. Функции Сайта",
+   "agreement.9.answer.1":"8.1. Администратор вправе в одностороннем порядке изменять условия соглашения, при этом такие изменения вступают в силу в момент опубликования новой версии соглашения в сети интернет по адресу https://standoffcase.com/agreement ",
+   "agreement.9.answer.2":"8.2. Продолжение использования функций сайта будет означать согласие пользователя с условиями новой версии соглашения. Если пользователь не согласен с условиями новой версии соглашения, он прекращает пользоваться сайтом. ",
+   "agreement.9.answer.3":"8.3. Во всем остальном, что не урегулировано соглашением, стороны руководствуются действующим законодательством Российской Федерации без учета его коллизионных норм. ",
+   "referal.title": "Реферальная система и бесплатный баланс!",
+   "referal.reached": "Вы достигли",
+   "referal.level": "уровень",
+   "referal.reached.1": "Достигнув этого уровня",
+   "referal.reached.2": "вы получили:",
+   "referal.percent": "Процент от пополнения",
+   "referal.referals": "Текущих рефералов",
+   "referal.referals2": "рефералов нужно пригласить",
+   "referal.reward.1": "Мой заработок",
+   "referal.reward.2": "от рефералов",
+   "referal.invite.your": "Ваш инвайт-код",
+   "referal.invite.link": "Ваша инвайт-ссылка",
+   "referal.invite.own": "Ввести инвайт-код",
+   "referal.invite.placeholder": "Инвайт-код",
+   "referal.btn.save": "Сохранить",
+   "referal.btn.copy": "Скопировать",
+   "referal.btn.activate": "Активировать",
+   "referal.feeder.1": "Делитесь своим кодом с друзьями и получайте баланс на сайт за каждое их пополнение.\nВы можете изменить свой инвайт-код на более удобный и запоминающийся.\n Код может состоять\nтолько из латинских букв и цифр.",
+   "referal.feeder.2": "Делитесь своей ссылкой везде со всеми и получайте баланс на сайт за каждое\nих пополнение. Вы можете размещать свою ссылку где угодно, кроме нашей\nгруппы, без ограничений!",
+   "referal.feeder.3": "Инвайт-код можно получить от друга и ввести лишь 1 раз. Вы не можете вводить свой код.",
+   "case.bonus.1": "Пополни баланс сайта на 250 Р и открывай этот кейс бесплатно каждые 2 часа",
+   "case.bonus.2": "Пригласи 10 друзей по реф.ссылке и открывай этот кейс бесплатно каждые 3 дня",
+   "case.bonus.3": "Подарочный кейс от сайта, который можно открывать бесплатно каждые 24 часа",
+   "topday.heading": "Главный приз <br> на сегодня",
+   "topday.article.title.1": "1000",
+   "topday.article.text.1": "Попади в ТОП-1 и забери 1000 Р <br> на свой баланс!",
+   "topday.article.title.2": "Что такое топ дня?",
+   "topday.article.text.2": "Попади в число первых 3-х игроков топа дня и гарантировано получи баланс! <br> Выдача баланса производится каждый день в 23:59 по МСК!",
+   "topday.article.title.3": "Как попасть в топ?",
+   "topday.article.text.3": "<p class="\"top-establish__article2--text\"">Открывай кейсы. Больше выбитых скинов - <br> выше строчка топа!</p><a class="\"usual-button\"" href="__1.html">Открыть кейс</a>",
+   "topday.article.title.4": "Какие призы?",
+   "topday.article.text.4": "За 1 место мы дарим 1.000 Р<br>За 2 место мы дарим 500 Р<br>За 3 место мы дарим 250 Р<br>",
+   "underbar.freecase.title": "Бесплатные скины",
+   "underbar.freecase.text": "Открывай кейсы бесплатно <br> выполняя задания",
+   "underbar.ref.title": "Бесплатный баланс",
+   "underbar.ref.text": "Приглашай друзей на сайт <br>  по реф.системе и получай баланс",
+   "top.heading.all":"Общий топ",
+   "top.heading.day":"Топ дня",
+   "popup.points.title": "Бонусный баланс",
+   "popup.points.text": "Б - бонусный баланс, который начисляется в размере 10% от открытых кейсов за рубли. <br>Бонусные кейсы можно открыть на странице с кейсами в разделе \"Бонусные кейсы\"",
+   "bonus1000.title": "Дарим 1 000 Р на баланс",
+   "bonus1000.standoff": "Введите ваш ID в StandOff 2",
+   "bonus1000.btn_save": "Сохранить",
+   "bonus1000.bonus_time": "Следующий розыгрыш через",
+   "bonus1000.last_winner": "Последние победители",
+   "bonus1000.participants": "В розыгрыше участвуют",
+   "bonus1000.participants_empty": "Участников нет",
+   "bonus1000.more": "Показать ещё",
+   "bonus1000.status": "Ваш статус",
+   "bonus1000.status.nothing": "Не участвуете",
+   "bonus1000.status.moderation": "На модерации",
+   "bonus1000.status.confirmed": "Участник",
+   "bonus1000.subtitle.1": "Для получения 1 000 Р Вам необходимо добавить в свой ник в игре",
+   "bonus1000.subtitle.2": "и указать ID аккаунта",
+   "bonus1000.subtitle.3": "После чего мы проверим, действительно ли Вы добавили наш сайт в свой ник игры.",
+   "bonus1000.subtitle.4": "Каждые 7 дней в",
+   "bonus1000.subtitle.5": "по МСК 7-и рандомномым игрокам будет зачислятся",
+   "bonus1000.subtitle.6": "1000 Р",
+   "bonus1000.subtitle.7": "на баланс сайта!",
+   "fortune.promocode.btn": "Активировать",
+   "fortune.promocode.or": "или",
+   "fortune.promocode.text": "Промокод",
+   "fortune.btn.spin_retry": "Крутить ещё",
+   "fortune.btn.profile": "Профиль",
+   "fortune.notice.1": "Бонус можно активировать в",
+   "fortune.notice.2": "профиле",
+   "fortune.item.1": "1000 руб на баланс",
+   "fortune.item.2": "100 руб на баланс",
+   "fortune.item.3": "1 случайный скин при пополнении от 100 руб",
+   "fortune.item.4": "Открытие 2 случайных кейсов при пополнении от 250 руб",
+   "fortune.item.5": "2 случайных скина при пополнении от 200 руб",
+   "fortune.item.6": "3 случайных скина при пополнении от 300 руб",
+   "fortune.item.7": "Промокод на 35% к пополнению",
+   "fortune.item.8": "Открытие случайного кейса",
+   "fortune.item.9": "Скин от 250 руб при пополнении баланса на 500 руб",
+   "fortune.item.10": "Случайный скин",
+   "fortune.item.11": "Случайный нож",
+   "fortune.item.12": "x2 умножения к пополнению баланса от 500 руб",
+   "fortune.item.13": "+25 руб на баланс при пополнении от 100 руб",
+   "fortune.item.14": "+100 руб на баланс при пополнении от 500 руб",
+   "fortune.item.15": "+500 руб на баланс при пополнении от 2500 руб",
+   "fortune.item.16": "10000 руб на баланс",
+   "fortune.item.17": "2 случайных скина",
+   "fortune.item.18": "Случайный нож при пополнении от 3000 руб",
+   "fortune.item.19": "Открытие ножевого кейса",
+   "fortune.item.20": "20% возврата суммы на баланс от открытия любого кейса в течении 1 часа",
+   "fortune.item.21": "Промокод на 50% к пополнению",
+   "fortune.item.22": "Скидка 55% на любой кейс из темы наши сборки",
+   "fortune.item.23": "x5 умножения к пополнению баланса",
+   "fortune.item.24": "x2 умножения к пополнению баланса",
+   "fortune.item.1.desc": "Данный бонус содержит в себе 1000 руб на баланс сайта. <br> Примените данный бонус и деньги автоматически зачислятся на Ваш баланс!",
+   "fortune.item.2.desc": "Данный бонус содержит в себе 100 руб на баланс сайта. <br> Примените данный бонус и деньги автоматически зачислятся на Ваш баланс!",
+   "fortune.item.3.desc": "Данный бонус содержит в себе один случайный скин от 1 рубля до 10000 руб, <br> который Вы получите в профиль сайта после того, как пополните баланс более чем на 100 руб!",
+   "fortune.item.4.desc": "Данный бонус содержит в себе бесплатное открытие 2 рандомных кейсов, <br> которые Вы получите после пополнения баланса более чем на 250 руб. Найти их и открыть Вы сможете на главной странице сайта!",
+   "fortune.item.5.desc": "Данный бонус содержит в себе два случайных скина по цене от 1 рубля до 10000 руб, <br> которые Вы получите в профиль сайта после пополнения баланса более чем на 200 руб!",
+   "fortune.item.6.desc": "Данный бонус содержит в себе три случайных скина по цене от 1 рубля до 10000 руб, <br> которые Вы получите в профиль сайта после пополнения баланса более чем на 300 руб!",
+   "fortune.item.7.desc": "Данный бонус содержит в себе промокод на 35% к депозиту при пополнении баланса. <br> К примеру поплните на 1000 руб, а получите 1350 руб на Ваш баланс!",
+   "fortune.item.8.desc": "Данный бонус содержит в себе бесплатное открытие рандомного кейса, <br> после применения Вам нужно найти его на главной странице сайта!",
+   "fortune.item.9.desc": "Данный бонус содержит в себе 1 скин от 250 до 10000 руб, <br> который Вы получите в профиль сайта после пополнения баланса более чем на 500 руб!",
+   "fortune.item.10.desc": "Данный бонус содержит в себе скины от 1 до 3000 руб, <br> после применения Вы бесплатно получите скин в профиль сайта!",
+   "fortune.item.11.desc": "Данный бонус содержит в себе рандомный нож в профиль сайта! <br> После приминения Вы автоматически получите любой нож, начиная от JKommando, заканчивая Karambit Gold!",
+   "fortune.item.12.desc": "Данный бонус содержит в себе x2 пополнения баланса и работает от 500 руб! <br> К примеру пополняете баланс сайта на 1000 руб, а получаете 2000 руб!",
+   "fortune.item.13.desc": "Данный бонус содержит в себе 25 бесплатных руб при пополнении баланса от 100 руб!",
+   "fortune.item.14.desc": "Данный бонус содержит в себе 100 бесплатных руб при пополнении баланса от 500 руб!",
+   "fortune.item.15.desc": "Данный бонус содержит в себе 500 бесплатных руб при пополнении баланса от 2500 руб!",
+   "fortune.item.16.desc": "Данный бонус содержит в себе 10000 руб на баланс сайта. <br> Примените данный бонус и деньги автоматически зачислятся на Ваш баланс!",
+   "fortune.item.17.desc": "Данный бонус содержит в себе скины от 1 до 3000 руб, <br> после применения Вы бесплатно получите два скина в профиль сайта!",
+   "fortune.item.18.desc": "Данный бонус содержит в себе получение в профиль сайта бесплатного ножа от Jkommando до Karambit Gold, <br> после пополнения баланса на более чем на 3000 руб Вы автоматически получите его в профиль сайта!",
+   "fortune.item.19.desc": "Данный бонус содержит в себе бесплатное открытие ножевого кейса. <br> После применения Вы его сможете бесплатно открыть и выбить нож!",
+   "fortune.item.20.desc": "Данный бонус содержит в себе 20% возврата суммы на баланс от каждого открытого кейса на протяжении 1 часа! <br> К примеру Вы открыли кейс за 100 руб, а на балансе сохранилось 20 руб и так в течении часа!",
+   "fortune.item.21.desc": "Данный бонус содержит в себе промокод на 35% к депозиту при пополнении баланса. <br> К примеру поплните на 1000 руб, а получите 1500 руб на Ваш баланс!",
+   "fortune.item.22.desc": "Данный бонус содержит в себе cкидку 55% на один любой открытый кейс из темы наши сборки! <br> К примеру ножевой кейс стоит 2799 руб, а Вы сможете его открыть за 1259 руб!",
+   "fortune.item.23.desc": "Данный бонус содержит в себе x5 к пополнению баланса! <br> К примеру Вы пополняете баланс на 500 руб, а получаете 2500 руб!",
+   "fortune.item.24.desc": "Данный бонус содержит в себе x2 к пополнению баланса! <br> К примеру Вы пополняете баланс на 500 руб, а получаете 1000 руб!",
+   "promo.not_found": "Промокод не найден!",
+   "promo.already": "Вы уже активировали промокод!",
+   "promo.limit": "Превышен лимит активаций",
+   "bonuses.title": "Розыгрыши ножей от StandoffCase",
+   "bonuses.desc": " ",
+   "bonuses.pattern.1": "Последний победитель",
+   "bonuses.pattern.2": "Пользователь получил",
+   "bonuses.pattern.3": "разыгрывается",
+   "bonuses.pattern.4": "До конца",
+   "bonuses.users": "Участвует",
+   "bonuses.btn.1": "Участвовать",
+   "bonuses.btn.2": "Вы уже участник",
+   "bonuses.1.title": "Розыгрыш рандомного ножа каждые 3 дня",
+   "bonuses.1.desc": "Каждые 3 дня генерируется случайный нож, который получит рандомный участник розыгрыша к себе в профиль. Для участия нажми на \"участвовать\"",
+   "bonuses.2.title": "Розыгрыш бабочки каждые 7 дней",
+   "bonuses.2.desc": "Каждую неделю генерируется случайная бабочка, которую получит рандомный участник розыгрыша к себе в профиль. Для участия нажми на \"участвовать\"",
+   "bonuses.3.title": "Розыгрыш Karambit Gold каждые 30 дней",
+   "bonuses.3.desc": "Каждый месяц розыгрыш Karambit Gold, который получит рандомный участник розыгрыша к себе в профиль. Для участия нажми на \"участвовать\""
+}" promocode="XNHWX4S" :freecase="{"allow":true,"time":-1,"hours":"0","minutes":"0","seconds":"0"}"></app>
+            <div class="popup error">
+                <div class="close" onclick="collapse('error')"></div>
+                <div class="content">
+                    <div class="close">✖</div>
+                    <h2></h2>
+                    <h4></h4>
+                    <div class="extra">
+                        Купить
+                    </div>
+                    <div class="more"></div>
+                    <div class="top_up">
+                        <div class="this_wrapper">
+                            <input class="coupon" autocomplete="off" id="payment_promo" placeholder="Промокод">
+                            <span class="white promocode">Если у Вас есть промокод, введите выше</span>
+                            <br>
+                            <div class="flow">
+                                <input class="money" autocomplete="off" id="payment_sum" type="tel" value="100" placeholder="Введите сумму">
+                                <form payment-form method="post" action="https://pay.gamemoney.com/terminal/">
+                                    <input type="hidden" name="project" value="101">
+                                    <input type="hidden" payment-amount name="amount" value="100">
+                                                                        <input type="hidden" payment-sign name="signature">
+                                    <button onclick="pay(event);" class="button orange2" style="cursor: pointer;">Пополнить баланс</button>
+                                </form>
+                            </div>
+                            <!--button onclick="payRobokassa();" class="button orange2" style="cursor: pointer;margin-top: 15px;">Пополнить баланс через QIWI</button-->
+                            <button onclick="payUnitpay();" class="button orange2" style="cursor: pointer;margin-top: 15px;">Пополнить баланс через Мобильный телефон</button>
+                            <div id="top_up__info" style="margin-top:20px;"></div>
+                        </div>
+                        <div class="systems">
+                            <img src="fonts/mastercard.svg">
+                            <img src="fonts/webmoney.svg">
+                            <img src="fonts/qiwi.svg">
+                            <img src="fonts/yandex.svg">
+                            <img src="fonts/visa.svg">
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="popup1" onclick="$('.popup1').hide();">
+                <div class="popup__inner">
+                    <div class="popup-window">
+                        <div class="popup-content">
+                        
+                            
+                        
+                            <div class="popup-content__body">
+                                <div class="top-up">
+                        
+                                <div class="top-up__header">
+                                    
+                                    <h3 class="top-up__title">Попополнение баланса</h3>
+                                    
+                                </div>
+                        
+                                <div class="pay-systems">
+                                    <div class="pay-systems__system" attr-method="card" attr-type="UNITPAY">
+                                    <span class="pay-systems__note">Первый способ</span>
+                                    <img src="images/cards.png" alt="Первый способ" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="card" attr-type="GAMEMONEY">
+                                    <span class="pay-systems__note">Второй способ</span>
+                                    <img src="images/cards.png" alt="Второй способ" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="qiwi" attr-type="QIWI">
+                                    <span class="pay-systems__note">QIWI</span>
+                                    <img src="fonts/qiwi_1.svg" alt="Qiwi" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="yandex" attr-type="UNITPAY">
+                                    <img src="images/yandex_money.png" alt="Ю.Money" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="applepay" attr-type="UNITPAY">
+                                    <img src="images/apple_pay.png" alt="appley pay" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="samsungpay" attr-type="UNITPAY">
+                                    <img src="images/samsung_pay.png" alt="appley pay" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="wmz" attr-type="GAMEMONEY">
+                                    <span class="pay-systems__note">WMZ</span>
+                                    <img src="images/webmoney.png" alt="WMZ" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="wme" attr-type="GAMEMONEY">
+                                    <span class="pay-systems__note">WME</span>
+                                    <img src="images/webmoney.png" alt="WME" class="pay-systems__image">
+                                    </div>
+                                    
+                                    <div class="pay-systems__system" attr-method="mc" attr-type="UNITPAY">
+                                    <span class="pay-systems__note">Моб. платежи</span>
+                                    <img src="images/mobiles.png" alt="Моб. платежы" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="ethereum" attr-type="GAMEMONEY">
+                                    <img src="images/ethereum.png" alt="ethereum" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="bitcoin" attr-type="GAMEMONEY">
+                                    <img src="images/bitcoin.png" alt="bitcoin" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="promsviaz" attr-type="GAMEMONEY">
+                                    <img src="images/psb.png" alt="psb" class="pay-systems__image">
+                                    </div>
+                                    <div class="pay-systems__system" attr-method="alfabank" attr-type="GAMEMONEY">
+                                    <img src="images/alfa_bank.png" alt="alfa bank" class="pay-systems__image">
+                                    </div>
+                                    
+                                </div>
+                        
+                                
+                        
+                                <div class="top-up-fields">
+                                    <div class="top-up-field">
+                                    <label class="top-up-field__label" for="promo">Промокод</label>
+                                    <input class="top-up-field__input" id="promo" type="text" placeholder="_ _ _ _ _ _ _" autocomplete="off">
+                                    <div class="top-up-field__notice"></div>
+                                    </div>
+                        
+                                    <div class="top-up-field">
+                                    <label class="top-up-field__label" for="sum">Сумма</label>
+                                    <input class="top-up-field__input" id="sum" type="text" value="100" autocomplete="off">
+                                    </div>
+                        
+                                </div>
+                                <div class="promocode" style="text-align: center;"></div>
+                                <div class="top-up__bottom">
+                                    <button class="button" onclick="payCreate();">Пополнить баланс</button>
+                                </div>
+                        
+                                </div>
+                            </div>
+                        
+                            </div>
+                            <div class="popup-side">
+                            <div class="popup-side__icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="svg-cross">
+                                <line x1="18" y1="6" x2="6" y2="18"/>
+                                <line x1="6" y1="6" x2="18" y2="18"/>
+                                </svg>
+                            </div>
+                            </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="popup notify">
+                <div class="content fade">
+                    <h2></h2>
+                    <h4></h4>
+                    <span class="close">✖</span>
+                </div>
+            </div>
+            <div class="statistic">
+                <div class="stat" onclick="window.location.href='/';">
+                    <div class="numbers" id="cases">0</div>
+                    <div class="desc">Кейсов открыто</div>
+                    <div class="line"></div>
+                    <div class="pluses"></div>
+                </div>
+                <div class="stat" onclick="window.location.href='/contracts';">
+                    <div class="numbers" id="contract">0</div>
+                    <div class="desc">Контрактов сделано</div>
+                    <div class="line"></div>
+                    <div class="pluses"></div>
+                </div>
+                <div class="stat" onclick="window.location.href='/top';">
+                    <div class="numbers" id="users">0</div>
+                    <div class="desc">Пользователей</div>
+                    <div class="line"></div>
+                    <div class="pluses"></div>
+                </div>
+                <div class="stat" onclick="window.location.href='/top';">
+                    <div class="numbers" id="online">0</div>
+                    <div class="desc">Онлайн</div>
+                    <div class="line"></div>
+                    <div class="pluses"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_wrapper">
+                <div class="systems">
+                    <img src="fonts/mastercard.svg">
+                    <img src="fonts/webmoney.svg">
+                    <img src="fonts/qiwi.svg">
+                    <img src="fonts/yandex.svg">
+                    <img src="fonts/visa.svg">
+                </div>
+                <div class="rice">
+                    <div class="soc-icons">
+                        <a target="_blank" href="https://vk.com/standoffcase">
+                            <img src="images/vk.png">
+                        </a>
+                        <a target="_blank" href="https://www.instagram.com/standoffcase/">
+                            <img src="images/instagram.png">
+                        </a>
+                        <a target="_blank" href="https://tele.gg/standoffcase">
+                            <img src="images/telegram.png">
+                        </a>
+                        <a target="_blank" href="https://steamcommunity.com/groups/standoffcase">
+                            <img src="images/steam.png">
+                        </a>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCpPYX9suGwFC921OMwqqDbQ">
+                            <img src="images/youtube.png">
+                        </a>
+                    </div>
+                    <div class="logo">
+                        <a href="index_1.html" style="cursor: pointer;">
+                            <img src="images/standoff_logo.png">
+                        </a>
+                    </div>
+                    <div class="desc">
+                        На нашем сайте вы можете открыть различные кейсы по игре Standoff 2 и самым выгодным ценам
+                    </div>
+                    <div class="scroll_to_top"><span class="chevron_up">❯</span></div>
+                </div>
+                <div class="copyright">Copyright © 2019 - 2020 standoffcase.com</div>
+                <div class="links">
+                    <a href="agreement.html">Пользовательское соглашение</a>
+                    <a href="contacts.html">Контакты</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+		function img_error(element) {
+			element.src = '/assets/img/guest.png';
+		}
+        function isMobile() {
+            if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|ipad|iris|kindle|Android|Silk|lge |maemo|midp|mmp|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows (ce|phone)|xda|xiino/i.test(navigator.userAgent)
+                || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(navigator.userAgent.substr(0, 4))) {
+                return true;
+            } else return false;
+        }
+        if (!isMobile()) $("link[href *= 'mobile.css']").remove();
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" crossorigin="anonymous"></script>
+    <script src="https://vk.com/js/api/openapi.js?162" type="text/javascript"></script>
+    <script src="js/translate.js"></script>
+    <script src="js/scripts.js" async></script>
+    <script src="js/core.js" async></script>
+    <script src="js/app.js" async></script>
+    <script src="js/sucripts.js" async></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141264514-1"></script>
+    <script src="js/snowfall.js"></script>
+    <script>
+        var isUserSound = 1;
+        var isUserAuth = 0;
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-141264514-1');
+		gtag('config', 'AW-696808635');
+		<!-- Event snippet for Website traffic conversion page -->
+		gtag('event', 'conversion', {'send_to': 'AW-696808635/FiOHCIqyru0BELvpocwC'});
+
+
+
+        function isSound() {
+            return isUserSound;
+        }
+		
+
+    </script>
+
+</body></html>
